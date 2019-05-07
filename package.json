@@ -1,0 +1,31 @@
+{
+  "name": "node-red-contrib-gps",
+  "version": "1.0.0",
+  "description": "汽车在线 node red 节点",
+  "main": "xxx.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:smarthomefans/node-red-contrib-gps.git"
+  },
+  "keywords": [
+    "node-red",
+    "gps"
+  ],
+  "node-red": {
+    "nodes": {
+      "gpsoo-login": "login.js",
+      "gpsoo-configurator": "configurator.js",
+      "gpsoo-monitor": "monitor.js",
+      "gpsoo-address": "address.js"
+    }
+  },
+  "author": "yaming116",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1"
+  }
+}
